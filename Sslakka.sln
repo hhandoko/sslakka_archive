@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Resources", "1 - Resources", "{6BDC183F-ACC8-4F7C-9CDC-C02718C8D328}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Sources", "2 - Sources", "{1BBEC513-5F1F-4B9E-AC66-061A28A38ECE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Tests", "3 - Tests", "{9E0B95F3-F46B-430F-8F5A-1F2D28251B69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sslakka.Web", "src\Sslakka.Web\Sslakka.Web.csproj", "{F819DEA4-E91F-4ADF-94BF-A4BC713CDAD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sslakka.Service", "src\Sslakka.Service\Sslakka.Service.csproj", "{F8891344-FC70-4276-A0F1-59CA70AEFA98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sslakka.Data.SchemaMigration", "src\Sslakka.Data.SchemaMigration\Sslakka.Data.SchemaMigration.csproj", "{3B80D39F-B68C-41F9-B56D-DA8B07CC2178}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sslakka.Test.Web", "tests\Sslakka.Test.Web\Sslakka.Test.Web.csproj", "{B23FA58F-B36A-4C0C-9A35-386333AD1F3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F819DEA4-E91F-4ADF-94BF-A4BC713CDAD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F819DEA4-E91F-4ADF-94BF-A4BC713CDAD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F819DEA4-E91F-4ADF-94BF-A4BC713CDAD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F819DEA4-E91F-4ADF-94BF-A4BC713CDAD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8891344-FC70-4276-A0F1-59CA70AEFA98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8891344-FC70-4276-A0F1-59CA70AEFA98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8891344-FC70-4276-A0F1-59CA70AEFA98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8891344-FC70-4276-A0F1-59CA70AEFA98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B80D39F-B68C-41F9-B56D-DA8B07CC2178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B80D39F-B68C-41F9-B56D-DA8B07CC2178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B80D39F-B68C-41F9-B56D-DA8B07CC2178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B80D39F-B68C-41F9-B56D-DA8B07CC2178}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B23FA58F-B36A-4C0C-9A35-386333AD1F3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B23FA58F-B36A-4C0C-9A35-386333AD1F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B23FA58F-B36A-4C0C-9A35-386333AD1F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B23FA58F-B36A-4C0C-9A35-386333AD1F3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F819DEA4-E91F-4ADF-94BF-A4BC713CDAD6} = {1BBEC513-5F1F-4B9E-AC66-061A28A38ECE}
+		{F8891344-FC70-4276-A0F1-59CA70AEFA98} = {1BBEC513-5F1F-4B9E-AC66-061A28A38ECE}
+		{3B80D39F-B68C-41F9-B56D-DA8B07CC2178} = {1BBEC513-5F1F-4B9E-AC66-061A28A38ECE}
+		{B23FA58F-B36A-4C0C-9A35-386333AD1F3A} = {9E0B95F3-F46B-430F-8F5A-1F2D28251B69}
+	EndGlobalSection
+EndGlobal

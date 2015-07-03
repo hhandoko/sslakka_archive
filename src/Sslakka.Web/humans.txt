@@ -1,0 +1,29 @@
+﻿/* TEAM */
+
+    Developer  : Herdy Handoko
+    GitHub     : https://github.com/hhandoko
+    Twitter    : https://twitter.com/_hhandoko
+    LinkedIn   : http://linkedin.com/in/herdy.handoko
+    Location   : Perth, Western Australia, Australia
+
+
+
+/* SITE */
+
+    Language   : English
+    Doctype    : HTML5
+    Tools      : - JetBrains ReSharper Ultimate 9.x (Platform 6)
+                 - Microsoft Visual Studio Premium 2013 with Update 4
+                 - Mindscape Web Workbench 3.3.x
+    Fx and Libs: - Akka.NET 1.0.x                      -- Apache 2 license
+                 - AngularJs 1.4.x                     -- MIT license
+                 - AngularStrap 2.2.x                  -- MIT license
+                 - ELMAH 1.2.x                         -- Apache 2 license
+                 - FluentMigrator 1.5.x                -- Apache 2 license
+                 - ServiceStack 4.x                    -- Commercial license
+                     - ServiceStack
+                     - ServiceStack.Api.Swagger
+                     - ServiceStack.Logging.Elmah
+                     - ServiceStack.OrmLite.SqlServer
+                     - ServiceStack.Server
+                     - ServiceStack.Text
