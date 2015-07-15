@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="sslakka">
 <head>
     <title>Sslakka</title>
 
@@ -7,15 +7,83 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
+    <meta name="description" content="A Slack-inspired team collaboration tool built on top of ServiceStack + Akka.NET" />
+    <meta name="keywords" content="Slack,ServiceStack,Akka.NET,team collaboration" />
     <meta name="copyright" content="Copyright (c) Sslakka and its contributors" />
 
     <!-- Author / Developer -->
     <meta name="author" content="Herdy Handoko" />
     <link rel="author" href="~/humans.txt" />
+
+    <!-- Styles -->
+    <link href="~/static/lib/bootstrap/3.3/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/static/css/styles.min.css" rel="stylesheet" type="text/css"/>
+
+    <!-- Scripts -->
+    <script src="~/static/lib/jquery/2.1/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <script src="~/static/lib/angular/1.4/angular.min.js" type="text/javascript"></script>
+    <script src="~/static/lib/angular/1.4/angular-animate.min.js" type="text/javascript"></script>
+    <script src="~/static/lib/angular/1.4/angular-route.min.js" type="text/javascript"></script>
+    <script src="~/static/lib/angular-strap/2.2/angular-strap.min.js" type="text/javascript"></script>
+    <script src="~/static/lib/angular-strap/2.2/angular-strap.tpl.min.js" type="text/javascript"></script>
+
+    <!-- App -->
+    <script src="~/static/js/app.js" type="text/javascript"></script>
+    <script src="~/static/js/controller.js" type="text/javascript"></script>
 </head>
 <body>
-    @RenderBody()
+    <nav class="navbar navbar-inverse navbar-fixed-top" bs-collapse>
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" aria-expanded="false" aria-controls="navbar" bs-collapse-toggle>
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Sslakka</a>
+            </div>
+            <div class="navbar-collapse collapse" bs-collapse-target>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+                <form class="navbar-form navbar-right">
+                    <input type="text" class="form-control" placeholder="Search...">
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3 col-md-2 sidebar">
+                <ul class="nav nav-sidebar">
+                    <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Reports</a></li>
+                    <li><a href="#">Analytics</a></li>
+                    <li><a href="#">Export</a></li>
+                </ul>
+                <ul class="nav nav-sidebar">
+                    <li><a href="">Nav item</a></li>
+                    <li><a href="">Nav item again</a></li>
+                    <li><a href="">One more nav</a></li>
+                    <li><a href="">Another nav item</a></li>
+                    <li><a href="">More navigation</a></li>
+                </ul>
+                <ul class="nav nav-sidebar">
+                    <li><a href="">Nav item again</a></li>
+                    <li><a href="">One more nav</a></li>
+                    <li><a href="">Another nav item</a></li>
+                </ul>
+            </div>
+
+            <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
 </body>
 </html>
